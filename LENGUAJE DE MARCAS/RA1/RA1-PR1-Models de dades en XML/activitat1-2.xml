@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+    <llibre>
+        <titol>Padre rico, Padre pobre</titol>
+        <autor>Robert Kiyosaki</autor>
+        <any>1997</any>
+        <preu moneda="EUR">11,35</preu>
+    </llibre>
+    <llibre>
+        <titol>100 años de soledad</titol>
+        <autor>Gabriel García Márquez</autor>
+        <any>1967</any>
+        <preu moneda="EUR">12,95</preu>
+    </llibre>
+      <llibre>
+        <titol>El caballero de la armadura oxidada</titol>
+        <autor>Robert Fisher</autor>
+        <any>1987</any>
+        <preu moneda="EUR">7,12</preu>
+    </llibre>
+
+
+</cataleg>

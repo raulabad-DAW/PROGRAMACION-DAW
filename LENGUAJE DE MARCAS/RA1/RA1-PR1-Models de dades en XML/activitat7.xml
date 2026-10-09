@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dades_meteorologiques>
+    <ciutat>
+        <nom>Barcelona</nom>
+        <temperatura escala="Celsius">25</temperatura> <!--Se considera que "Celsius" es un atributo que complementa al nodo temperatura con tal de simplicar los datos dentro del mismo.-->
+        <humitat tipus="percentatge">60</humitat> <!--Se considera que "percentatge" es un tipo de dato que sirve como atributo para complementar la temperatura de la ciudad.-->
+        <vent velocitat="km/h">15</vent> <!--Se considera que "km/h" es un indicador de la velocidad a la que va el nodo viento, por tanto, un atributo. -->
+    </ciutat>
+</dades_meteorologiques>

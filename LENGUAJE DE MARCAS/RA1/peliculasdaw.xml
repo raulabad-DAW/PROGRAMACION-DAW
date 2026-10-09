@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pelis>
+    <peli>
+        <titulo>1917</titulo>
+        <director>Sam Mendes</director>
+        <year>2019</year>
+    </peli>
+    <peli>
+        <titulo>2012</titulo>
+        <director>Roland Emmerich</director>
+        <year>2009</year>
+    </peli>
+    <peli>
+        <titulo>Lincoln</titulo>
+        <director>Steven Spielberg</director>
+        <year>2012</year>
+    </peli>
+    <peli>
+        <titulo>1984</titulo>
+        <director>Michael Radford</director>
+        <year>1984</year>
+    </peli>
+    <peli>
+        <titulo>300</titulo>
+        <director>Zack Snyder</director>
+        <year>2006</year>
+    </peli>
+</pelis>

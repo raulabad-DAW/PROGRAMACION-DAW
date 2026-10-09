@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cotxes>
+    <cotxe pais="ESP">
+        <matricula>1234ABC</matricula>
+        <marca>Seat</marca>
+        <model tipus="gasolina">Ibiza</model>
+        <any>2022</any>
+        <preu moneda="EUR">15.390</preu>
+    </cotxe>
+    <cotxe pais="EEUU">
+        <matricula>5678XYZ</matricula>
+        <marca>Tesla</marca>
+        <model tipus="eléctrico">Model 3</model>
+        <any>2023</any>
+        <preu moneda="USDT">38.630</preu>
+    </cotxe>
+</cotxes>

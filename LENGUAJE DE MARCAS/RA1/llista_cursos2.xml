@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca 
+xmlns:ll= "http://exemple.org/llibres"
+xmlns:re=" http://exemple.org/revistes">
+    <ll:llibre>
+        <ll:titol>Don Quijote de la Mancha</ll:titol>
+        <ll:autor>Miguel de Cervantes</ll:autor>
+    </ll:llibre>
+     <ll:llibre>
+        <ll:titol>El señor de los anillos</ll:titol>
+        <ll:autor>J.R.R.Tolkien</ll:autor>
+    </ll:llibre>
+    <re:reviste>
+        <re:titol>Vogue</re:titol>
+        <re:editor>Anna Wintour</re:editor>
+    </re:reviste>
+    <re:reviste>
+        <re:titol>The New Yorker</re:titol>
+        <re:editor>David Remnick</re:editor>
+    </re:reviste>
+    </biblioteca>

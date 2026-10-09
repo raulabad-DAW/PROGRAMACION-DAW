@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persones>
+    <alumne>
+        <nom>Marc</nom>
+        <cognoms>Garcia Martinez</cognoms>
+        <edat>18</edat>
+    </alumne>
+     <alumne>
+        <nom>Kelly</nom>
+        <cognoms>Aruna</cognoms>
+        <edat>19</edat>
+    </alumne>
+</persones>

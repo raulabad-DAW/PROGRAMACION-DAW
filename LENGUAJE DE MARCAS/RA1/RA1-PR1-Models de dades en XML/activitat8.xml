@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog
+xmlns:el="http://example.com/electronics"
+xmlns:fur="http://example.com/furniture">
+
+    <el:electronica>
+        <el:nom>Televisor</el:nom>
+        <el:preu moneda="EUR">399,99</el:preu>
+    </el:electronica>
+
+    <fur:mobles>
+        <fur:nom>Sofà</fur:nom>
+        <fur:preu>299,99</fur:preu>
+    </fur:mobles>
+</catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula>
+        <titol>La Odisea</titol>
+        <director>Christopher Nolan</director>
+        <any>2026</any>
+        <genere>Acción</genere>
+        <durada tipus="min">172</durada>
+        <valoracio plataforma="IMDB">8.4</valoracio>
+    </pelicula>
+
+
+</peliculas>

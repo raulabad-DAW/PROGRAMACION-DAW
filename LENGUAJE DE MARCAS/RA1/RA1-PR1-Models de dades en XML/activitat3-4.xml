@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hotels>
+    <hotel>
+        <nom>Don Juan Tossa</nom>
+        <telefon prefix="+34">972 34 02 44</telefon>
+        <adreça> Carrer Barcelona, 22, 17320 Tossa de Mar, Girona</adreça>
+        <ciutat>Girona</ciutat>
+        <pais>España</pais>
+        <numero_de_estrellas>4</numero_de_estrellas>
+        <descripcion> es un hotel de 4 estrellas situado en el Carrer Barcelona 22, en pleno centro de Tossa de Mar (Girona) y a unos 150-200 metros de la Platja Gran.</descripcion>
+        <numero_de_habitaciones>250</numero_de_habitaciones>
+        <habitaciones_individuales>90</habitaciones_individuales>
+        <numero_de_suites>12</numero_de_suites>
+
+    </hotel>
+     <hotel>
+        <nom>Grand Hyatt Barcelona</nom>
+        <telefon prefix="+34">935 08 10 00</telefon>
+        <adreça>Pl. de Pius XII, 4, Les Corts, 08028 Barcelona</adreça>
+        <ciutat>Barcelona</ciutat>
+        <pais>España</pais>
+        <numero_de_estrellas>5</numero_de_estrellas>
+        <descripcion>Este hotel de lujo se encuentra junto a la avenida Diagonal a 5 minutos a pie de la estación de metro de María Cristina y a 10 del estadio del FC Barcelona, el Camp Nou.</descripcion>
+        <numero_de_habitaciones>465</numero_de_habitaciones>
+        <habitaciones_individuales>150</habitaciones_individuales>
+        <numero_de_suites>49</numero_de_suites>
+
+    </hotel>
+
+
+</hotels>

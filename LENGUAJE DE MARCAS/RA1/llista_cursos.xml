@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos xmlns:uni="http://example.com/university">
+    <uni:curs>
+        <uni:nom>Lenguaje de marcas</uni:nom>
+        <uni:professor>Laura Dominguez</uni:professor>
+        <uni:crèdits>6</uni:crèdits>
+        </uni:curs>
+    <uni:curs>
+        <uni:nom>Base de datos</uni:nom>
+        <uni:professor>Jose Luis Luján</uni:professor>
+        <uni:crèdits>6</uni:crèdits>
+        </uni:curs>
+    <uni:curs>
+        <uni:nom>Entornos de desarrollo</uni:nom>
+        <uni:professor>Pablo Cubiles</uni:professor>
+        <uni:crèdits>6</uni:crèdits>
+    </uni:curs>
+</cursos>
