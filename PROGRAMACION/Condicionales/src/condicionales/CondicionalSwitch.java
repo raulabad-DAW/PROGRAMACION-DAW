@@ -164,9 +164,21 @@ public class CondicionalSwitch {
             }
                 
         }
+        //MANERA DE PODER UN MENÚ CON TRIPLE COMILLAS. 
 */
-        
-        
+       /* System.out.println("""
+                           
+                           
+        === MENÚ PRINCIPAL ===
+        1.Veure perfil
+        2. Editar configuració
+        3. Canviar contrasenya                   
+        4. Sortir
+         
+        Tria una opció:          
+                           
+         """);
+        */
 
     }
 }

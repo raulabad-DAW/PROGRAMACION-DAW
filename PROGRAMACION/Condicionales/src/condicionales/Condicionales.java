@@ -31,7 +31,8 @@ public class Condicionales {
             System.out.println("Son iguales.");
             
         }System.out.println("No son iguales.");
-*/
+ /*
+
         //IF 2
         /*Scanner s = new Scanner(System.in);
         System.out.println("Dime un número:");
@@ -60,20 +61,7 @@ public class Condicionales {
        
         }
 */
-        //IF 4
-        Scanner s = new Scanner(System.in);
-        System.out.println("Dime un número:");
-        int num1 = s.nextInt();
-        s.nextLine();
-        System.out.println("Dime otro número:");
-        int num2 = s.nextInt();
-        s.nextLine();
-        if (num1==num2) {
-            System.out.println("Son iguales");
-            
-        }else   {
-            
-        }
+     
         
     }
 
