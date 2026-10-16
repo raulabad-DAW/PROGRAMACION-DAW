@@ -1,0 +1,25 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="uC-4jiKvhbJ04yCorQSW">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2-KxzxJ2mcWKbmmT36aH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sucursal" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2-KxzxJ2mcWKbmmT36aH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Banco" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2-KxzxJ2mcWKbmmT36aH-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cliente" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2-KxzxJ2mcWKbmmT36aH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cuenta" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2-KxzxJ2mcWKbmmT36aH-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Transacción" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

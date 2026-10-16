@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="ixyIEOfGW3bHJjqunzqe">
+    <mxGraphModel dx="1704" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-9" edge="1" parent="1" source="zu5VUPD0Li_RsXExVUAI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zu5VUPD0Li_RsXExVUAI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Profesor" vertex="1">
+          <mxGeometry height="60" width="120" x="118" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-10" edge="1" parent="1" source="zu5VUPD0Li_RsXExVUAI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="zu5VUPD0Li_RsXExVUAI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="supervisa" vertex="1">
+          <mxGeometry height="80" width="80" x="374" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="profesores" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-7" edge="1" parent="1" source="zu5VUPD0Li_RsXExVUAI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zu5VUPD0Li_RsXExVUAI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-8" edge="1" parent="1" source="zu5VUPD0Li_RsXExVUAI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="zu5VUPD0Li_RsXExVUAI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Profesor" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="supervisa" vertex="1">
+          <mxGeometry height="80" width="80" x="390" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="zu5VUPD0Li_RsXExVUAI-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SI NO SE ENTIENDE UNA RELACIÓN RECURSIVA SE PUEDE PONER ASÍ, YA QUE EN VERDAD SON DOS QUE SE CONVIERTE EN UNA&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
