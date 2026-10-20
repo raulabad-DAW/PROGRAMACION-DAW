@@ -58,13 +58,7 @@ public class While {
          System.out.println("¡Correcto! Has adivinado el valor.");
 */
         //WHILE EXTRA
-        System.out.println("Introduce un número real:");
-        double numUsuari = -1;
-        double mitadNum = 0;
-        while(numUsuari!=0){
-            numUsuari = sc.nextDouble();
-            
-        }
+       
         
      
         
