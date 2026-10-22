@@ -4,6 +4,7 @@
  */
 package pkgwhile;
 
+import java.io.PrintStream;
 import java.util.Scanner;
 
 /**
@@ -11,6 +12,10 @@ import java.util.Scanner;
  * @author r.abad
  */
 public class While {
+    static {
+        System.setOut(new PrintStream(System.out, true, java.nio.charset.StandardCharsets.UTF_8));
+        System.setErr(new PrintStream(System.err, true, java.nio.charset.StandardCharsets.UTF_8));
+    }
 
     
     public static void main(String[] args) {
@@ -58,6 +63,23 @@ public class While {
          System.out.println("¡Correcto! Has adivinado el valor.");
 */
         //WHILE EXTRA
+        System.out.println("Dime un número real: (0 para terminar)");
+        double numUsuari = -1;
+        int  contador = 0;
+        while (numUsuari!=0){
+            numUsuari = sc.nextDouble();
+             if (numUsuari!=0) {
+                 double numMitad = (int)numUsuari/2;
+                 System.out.println("La mitad de " + numUsuari + " es " + numMitad);
+                 contador++;
+                 
+                 
+            
+       
+            
+        }
+        }System.out.println("El número que has introducido es 0.");
+       
        
         
      
