@@ -10,6 +10,6 @@ El ramen instantani és un plat de **fideus orientals** molt popular perquè es 
 
 ## Passos
 [x] Posar aigua a bullir
- [ ] Coure els fideus exactament 3 minuts.
+[ ] Coure els fideus exactament 3 minuts.
 [ ] Afegir l'ou i el formatge perquè es fonguin amb el brou.
 
