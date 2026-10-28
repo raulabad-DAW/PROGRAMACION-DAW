@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs: element name="nom" type="xs:string"/>
+<xs: element name="quantitat" type="xs:integer"/>
+<xs: element name="preu" type="xs:decimal"/>
+<xs: element name="any" type="xs:gYear"/>
+<xs: element name="estat" type="xs:string" default="Pendent"/>
+<xs: element name="puntuacioMaxima" type="xs:integer" fixed="100"/>
+<xs: element name="iva" type="xs:decimal" fixed="21.0"/>
+
+
+</xs:schema>

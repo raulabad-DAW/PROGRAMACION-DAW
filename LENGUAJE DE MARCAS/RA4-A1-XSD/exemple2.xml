@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="exemple2.xsd">
+ <usuario>
+ <id>101</id>
+ <nombre>Eva</nombre>
+ <segundoNombre>María</segundoNombre>
+ <apellido>Molina</apellido>
+ <correo>eva@ejemplo.com</correo>
+ </usuario>
+ <usuario>
+ <id>102</id>
+ <nombre>Ana</nombre>
+ <apellido>Márquez</apellido>
+ <correo>ana@ejemplo.com</correo>
+ </usuario>
+</registros>
