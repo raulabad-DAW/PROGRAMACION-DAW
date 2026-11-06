@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="qQDm-HN22wA4JDuHZiM1">
+    <mxGraphModel dx="2049" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1F2937;" value="MAPA FÍSICO DE RED — SEDE CLUB MOTORBIKE" vertex="1">
+          <mxGeometry height="36" width="880" x="260" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=2;fontColor=#64748B;" value="Planta de distribución física, cableado estructurado UTP Cat6 y cobertura Wi-Fi" vertex="1">
+          <mxGeometry height="30" width="960" x="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="it" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=16;fontStyle=1;fontColor=#14527A;" value="DPTO. INFORMÁTICA&lt;br&gt;(Centro de Control &amp; Rack)" vertex="1">
+          <mxGeometry height="46" width="300" x="68" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="zoneit" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#2C4053;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="350" width="480" x="50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zoneitlabel" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#14527A;" value="DPTO. INFORMÁTICA&lt;br&gt;(Centro de Control &amp; Rack)" vertex="1">
+          <mxGeometry height="42" width="280" x="68" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="zonehall" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3F5F6;strokeColor=#2C4053;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="740" width="300" x="530" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="halllabel" parent="1" style="text;html=1;align=center;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#536174;" value="PASILLO CENTRAL" vertex="1">
+          <mxGeometry height="30" width="240" x="560" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zonemkt" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F7F4;strokeColor=#2C4053;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="300" width="520" x="830" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mktlabel" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#00856F;" value="DPTO. MARKETING&lt;br&gt;(Diseño Gráfico)" vertex="1">
+          <mxGeometry height="42" width="250" x="848" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="zonerp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9E8;strokeColor=#2C4053;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="390" width="480" x="50" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="rplabel" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#8A6A00;" value="DPTO. RRPP / ENTRADA&lt;br&gt;(Barra, Billar &amp; Música)" vertex="1">
+          <mxGeometry height="42" width="300" x="68" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="zonepres" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5EDF8;strokeColor=#2C4053;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="215" width="520" x="830" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="preslabel" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#74349A;" value="PRESIDENCIA Y TESORERÍA" vertex="1">
+          <mxGeometry height="30" width="340" x="848" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="zoneguias" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF4E6;strokeColor=#2C4053;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="225" width="520" x="830" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="glabel" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#B34A00;" value="DPTO. GUÍAS" vertex="1">
+          <mxGeometry height="30" width="240" x="848" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="rack" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2C4053;strokeColor=#142536;strokeWidth=2;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" value="RACK CENTRAL&lt;br&gt;• Router ISP&lt;br&gt;• Switch 24p&lt;br&gt;• Patch Panel" vertex="1">
+          <mxGeometry height="190" width="140" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lap1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#14527A;fontColor=#FFFFFF;fontSize=12;" value="LAP-IT-01&lt;br&gt;(Portátil)" vertex="1">
+          <mxGeometry height="54" width="72" x="285" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lap2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#14527A;fontColor=#FFFFFF;fontSize=12;" value="LAP-IT-02&lt;br&gt;(Portátil)" vertex="1">
+          <mxGeometry height="54" width="72" x="382" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="bar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5DADD;strokeColor=#84939A;fontColor=#334155;fontSize=13;fontStyle=1;" value="BARRA DE RRPP" vertex="1">
+          <mxGeometry height="70" width="330" x="110" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="pcbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2C4053;strokeColor=#8A6A00;fontColor=#FFFFFF;fontSize=12;" value="PC-RRPP-01&lt;br&gt;(Torre Barra)" vertex="1">
+          <mxGeometry height="62" width="88" x="135" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="laprrpp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#8A6A00;fontColor=#FFFFFF;fontSize=12;" value="LAP-RRPP-YT&lt;br&gt;(Música/YT)" vertex="1">
+          <mxGeometry height="52" width="88" x="310" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="pcmk1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2C4053;strokeColor=#00856F;fontColor=#FFFFFF;fontSize=12;" value="PC-MKT-01&lt;br&gt;(Torre Graf)" vertex="1">
+          <mxGeometry height="62" width="88" x="915" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pcmk2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2C4053;strokeColor=#00856F;fontColor=#FFFFFF;fontSize=12;" value="PC-MKT-02&lt;br&gt;(Torre Graf)" vertex="1">
+          <mxGeometry height="62" width="88" x="1135" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pcpres" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2C4053;strokeColor=#74349A;fontColor=#FFFFFF;fontSize=12;" value="PC-PRES-01&lt;br&gt;(Torre)" vertex="1">
+          <mxGeometry height="62" width="88" x="915" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="lappres" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#74349A;fontColor=#FFFFFF;fontSize=12;" value="LAP-PRES-01&lt;br&gt;(Portátil)" vertex="1">
+          <mxGeometry height="52" width="88" x="1135" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="pcguias" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2C4053;strokeColor=#B34A00;fontColor=#FFFFFF;fontSize=12;" value="PC-GUIAS-01&lt;br&gt;(Torre)" vertex="1">
+          <mxGeometry height="62" width="88" x="915" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="lapguias" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#B34A00;fontColor=#FFFFFF;fontSize=12;" value="LAP-GUIAS-01&lt;br&gt;(Portátil)" vertex="1">
+          <mxGeometry height="52" width="88" x="1135" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="ap" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F39C12;strokeColor=#D35400;strokeWidth=2;fontColor=#FFFFFF;fontSize=15;fontStyle=1;" value="AP" vertex="1">
+          <mxGeometry height="70" width="70" x="650" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="aplabel" parent="1" style="text;html=1;align=center;fontSize=12;fontStyle=1;fontColor=#B36B00;" value="Punto Acceso Wi-Fi" vertex="1">
+          <mxGeometry height="24" width="170" x="600" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="cov1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F6B94A;strokeWidth=1;dashed=1;opacity=80;" value="" vertex="1">
+          <mxGeometry height="140" width="140" x="615" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="cov2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F6B94A;strokeWidth=1;dashed=1;opacity=80;" value="" vertex="1">
+          <mxGeometry height="230" width="230" x="570" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="cov3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F6B94A;strokeWidth=1;dashed=1;opacity=80;" value="" vertex="1">
+          <mxGeometry height="330" width="330" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cov4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F6B94A;strokeWidth=1;dashed=1;opacity=80;" value="" vertex="1">
+          <mxGeometry height="450" width="450" x="460" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cov5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F6B94A;strokeWidth=1;dashed=1;opacity=80;" value="" vertex="1">
+          <mxGeometry height="580" width="580" x="395" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="rj1" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#F28C28;strokeColor=#D35400;fontSize=9;fontStyle=1;" value="RJ45" vertex="1">
+          <mxGeometry height="18" width="18" x="950" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="rj2" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#F28C28;strokeColor=#D35400;fontSize=9;fontStyle=1;" value="RJ45" vertex="1">
+          <mxGeometry height="18" width="18" x="1170" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="rj3" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#F28C28;strokeColor=#D35400;fontSize=9;fontStyle=1;" value="RJ45" vertex="1">
+          <mxGeometry height="18" width="18" x="950" y="487" as="geometry" />
+        </mxCell>
+        <mxCell id="rj4" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#F28C28;strokeColor=#D35400;fontSize=9;fontStyle=1;" value="RJ45" vertex="1">
+          <mxGeometry height="18" width="18" x="950" y="707" as="geometry" />
+        </mxCell>
+        <mxCell id="rj5" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#F28C28;strokeColor=#D35400;fontSize=9;fontStyle=1;" value="RJ45" vertex="1">
+          <mxGeometry height="18" width="18" x="175" y="608" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" edge="1" parent="1" source="rack" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;html=1;strokeColor=#FF3B30;strokeWidth=2;labelBackgroundColor=default;defaultLabelBackgroundColor=page;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="rj1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="38" y="265" />
+              <mxPoint x="38" y="-18" />
+              <mxPoint x="1210" y="-18" />
+              <mxPoint x="1210" y="181" />
+              <mxPoint x="959" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2" edge="1" parent="1" source="rack" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;html=1;strokeColor=#FF3B30;strokeWidth=2;labelBackgroundColor=default;defaultLabelBackgroundColor=page;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="rj2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="52" y="251" />
+              <mxPoint x="52" y="-4" />
+              <mxPoint x="1196" y="-4" />
+              <mxPoint x="1196" y="146" />
+              <mxPoint x="1179" y="146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3" edge="1" parent="1" source="rack" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;html=1;strokeColor=#FF3B30;strokeWidth=2;labelBackgroundColor=default;defaultLabelBackgroundColor=page;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="rj3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="265" />
+              <mxPoint x="414" y="92" />
+              <mxPoint x="1117" y="92" />
+              <mxPoint x="1117" y="356" />
+              <mxPoint x="1196" y="356" />
+              <mxPoint x="1196" y="469" />
+              <mxPoint x="959" y="469" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" source="rack" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;html=1;strokeColor=#FF3B30;strokeWidth=2;labelBackgroundColor=default;defaultLabelBackgroundColor=page;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="rj4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="419" />
+              <mxPoint x="450" y="419" />
+              <mxPoint x="450" y="882" />
+              <mxPoint x="872" y="882" />
+              <mxPoint x="872" y="716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5" edge="1" parent="1" source="rack" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;html=1;strokeColor=#FF3B30;strokeWidth=2;labelBackgroundColor=default;defaultLabelBackgroundColor=page;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="rj5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="52" y="279" />
+              <mxPoint x="52" y="617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="barrier" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#00A650;" value="ENTRADA PRINCIPAL" vertex="1">
+          <mxGeometry height="24" width="150" x="610" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B8C2CC;fontSize=13;fontColor=#263445;align=left;verticalAlign=middle;spacing=12;" value="LEYENDA&lt;br&gt;■ Armario RACK (Router, Switch, Patch Panel)   ■ Equipo fijo / Torre (Conexión UTP)   ■ Equipo portátil (Wi-Fi / UTP)&lt;br&gt;● Punto de Acceso Wi-Fi (AP)   ━ Cableado UTP Cat6 (Canalización pasillo)   ┄ Cobertura inalámbrica Wi-Fi   ▧ Roseta mural RJ-45&lt;br&gt;&lt;i&gt;Nota: Todos los cables UTP canalizan desde el RACK por pasillos.&lt;/i&gt;" vertex="1">
+          <mxGeometry height="115" width="1300" x="50" y="895" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
