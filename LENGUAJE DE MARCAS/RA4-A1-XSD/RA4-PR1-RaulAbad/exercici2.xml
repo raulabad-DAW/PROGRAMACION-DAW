@@ -1,0 +1,11 @@
+<academia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="exercici2.xsd">
+<curs id="C001" nivell="intermedi">
+<nom>Desenvolupament Web</nom>
+<durada mida="hores">50</durada>
+</curs>
+<curs id="C002" nivell="avançat">
+<nom>Programació en Python</nom>
+<durada mida="hores">60</durada>
+</curs>
+</academia>
