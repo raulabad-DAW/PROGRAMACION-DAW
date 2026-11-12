@@ -10,8 +10,8 @@
                                 <xs:complexType>
                                     <xs:simpleContent>
                                         <xs:extension base="xs:integer">
-                                        <xs:attribute name="mida" type="xs:string"
-                                        use="required"></xs:attribute>
+                                            <xs:attribute name="mida" type="xs:string"
+                                                use="required"></xs:attribute>
                                         </xs:extension>
                                     </xs:simpleContent>
                                 </xs:complexType>
@@ -21,9 +21,9 @@
                         <xs:attribute name="nivell" use="required">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
-                                    <xs:enumeration value="bàsic"/>
-                                    <xs:enumeration value="intermedi"/>
-                                    <xs:enumeration value="avançat"/>
+                                    <xs:enumeration value="bàsic" />
+                                    <xs:enumeration value="intermedi" />
+                                    <xs:enumeration value="avançat" />
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:attribute>
