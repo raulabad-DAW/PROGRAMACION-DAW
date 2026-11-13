@@ -21,6 +21,54 @@ public class ExcepcionsRaulAbad {
     }
 
     public static void main(String[] args) {
+        
+        /*
+        1. Realitza un programa que simuli un joc d'endevinació d'un número entre l'1 i el 20.
+● El programa genera un número aleatori entre 1 i 20. Utilitza la classe random
+per fer-ho.
+        
+Random r = new Random();
+int numeroAleatori= r.nextInt(1,21);
+        
+● Se li demanarà a l'usuari que introdueixi un valor per a endevinar-lo.
+● Cada vegada que l'usuari introdueix un valor, l'ordinador indicarà a l'usuari si el
+número a endevinar és major o menor que l'introduït.
+● Quan encerti el número, s'imprimirà per pantalla el nombre de vegades que
+l'usuari ha intentat endevinar el número.
+● Si l'usuari introdueix alguna cosa que no és un número capturarà una
+InputMismatchException, ha d'indicar-ho en pantalla amb un missatge.
+        
+Nota: Cal col·locar un nextLine() de l’Scanner al catch perquè ens continuï preguntant
+les opcions del menú.
+        
+2. Escriu un codi on demani a l’usuari dos números sencers entre el 0 i el 100 i els
+divideixi. Utilitza sencers per guardar el resultat de la divisió. Caldrà controlar amb
+excepcions en 3 casos:
+● Que s'introdueixi una lletra o text quan es demana un número.
+● Que no s’estigui dividint per 0.
+● També caldrà mostrar un missatge d’error quan algun dels dos números
+estiguin fora del rang. (Excepció forçada)
+Si tot és correcte, es mostrarà el resultat de la divisió.
+        
+3. Crea un programa on es mostri el missatge “Creant String...” i el codi s’aturi durant 3
+segons: pots fer-ho amb la línia Thread.sleep(3000). Hauràs de posar un try i catch
+per capturar l'excepció de tipus InterruptedException.
+Després crea un String amb 5 lletres, amb lletres aleatòries.
+
+Pista: Pots utilitzar la funció Random del primer exercici, limitant el número entre el 97
+i 122 (que són els caràcters ascii de les lletres de la a a la z) i convertir-lo a un caràcter.
+Després, demana una posició del 0 al 4 a l’usuari i mostra per pantalla la lletra
+concreta. Caldrà capturar l’excepció en cas que s’introdueixi una posició fora de l’String
+i en cas que s’introdueixi una lletra.
+        
+4. Demana a l’usuari que introdueixi dos valors String que representin perquè siguin les
+files i les columnes del tauler d’escacs. Caldrà convertir els números a int per tal de fer
+uns càlculs. Caldrà comprovar que no hi ha error realitzant la conversió.
+Haurem de comprovar que el número total de fitxes del tauler (files x columnes) sigui
+un número parell. En cas de no ser-ho es llençarà una excepció forçada amb un
+missatge. En cas de ser correcte mostrarà el nombre de fitxes totals.
+
+        */
         Scanner s = new Scanner(System.in);
         int opcio = 0;
         do {

@@ -24,6 +24,78 @@ public class BuclesRaulAbad {
     public static final double DESCUENTOJUB = 0.50;
 
     public static void main(String[] args) {
+        
+        /*
+        Fes un menú per escollir entre els 5 exercicis següents. Cal tenir un bucle de repetició dels
+exercicis i una opció “Sortir” per deixar d’executar-los.
+        
+1. Un banc ofereix un pla d'estalvi amb rendiment mensual fix. Es demana crear un
+simulador que calculi l'evolució del capital d'un client mes a mes durant un any:
+1. Demana per teclat el valor inicial que té al compte bancari.
+2. El percentatge de rendiment, serà sempre 1,5%.
+3. Mitjançant un bucle, calcula i mostra l'evolució de l'estalvi durant exactament
+12 mesos.
+4. A cada mes, suma l'interès generat al total acumulat i mostra el resultat per
+pantalla amb el número de mes corresponent.
+5. En acabar el bucle, mostra el benefici total obtingut respecte al dipòsit inicial.
+        
+2. Volem fer un programa per calcular el preu d'una compra d'entrades per a un museu,
+tenint en compte que una persona pot comprar diverses entrades alhora.
+L'entrada normal costa 14,95 euros. Els estudiants tenen un descompte del 20% i els
+jubilats del 50%. Aquests dos descomptes no són acumulables.
+        
+El programa ha de permetre introduir quantes entrades es vol comprar en total i,
+després, quantes d’aquestes són de cada modalitat. El programa ha d'incloure un petit
+resum de la compra al final.
+S’ha de controlar que el número d’entrades totals introduïdes sigui major que les
+entrades de joves i jubilats, en cas contrari, es mostrarà un error i caldrà tornar a
+demanar totes les dades.
+        
+3. Donat el següent text, utilitza un bucle for per comptar quantes vocals, consonants,
+dígits numèrics i símbols conté. Cal ignorar els espais en blanc (no compten per cap
+categoria).
+        
+Cybersecurity is one of the most critical areas in modern network management.
+During 2025, Ransomware attacks increased by 37% worldwide, affecting more
+than 1200 companies and public institutions. To prevent intrusions,
+administrators apply SSL/TLS 1.3 protocols, end-to-end encryption (AES-256),
+and multi-factor authentication systems (MFA). Remember: 90% of security
+incidents start with a deceptive Phishing email!
+
+Pots utilitzar Character.isDigit() i Character.isLetter() per comprovar si un caràcter és
+una lletra o un número.
+Mostrar el resum final amb el total de cada tipus.
+        
+4. Crea un algorisme que demana a l'usuari una edat. Pregunta-li a alguna IA sobre com
+aconseguir l’any actual a Java i guardar-ho a un int. En l’entrega que trobaràs a
+digitalització, copia i enganxa el prompt que has fet a la IA. L'algorisme escriurà l'edat
+que tenia l'usuari en cada any des del seu naixement i s'acomiadarà dient Edat actual:
+tens <edat actual>. La sortida ha de ser igual que en l’exemple següent.
+Exemple:
+Introdueix l'edat: 6
+En 2020 va néixer
+En 2021 tenia 1 any
+En 2022 tenia 2 anys
+En 2023 tenia 3 anys
+En 2024 tenia 4 anys
+En 2025 tenia 5 anys
+Edat actual: tens 6 anys
+        
+5. Escriure un programa que mostri els 4 primers números de la taula de multiplicar d’un
+número que introdueix l’usuari. Haurà de mostrar, per cada fila, els 4 primers resultats
+de totes les taules des de l’1 fins al número de l’usuari:
+        
+Exemple:
+***MULTIPLICACIONS***
+Introdueix un número: 6
+1 2 3 4
+2 4 6 8
+3 6 9 12
+4 8 12 16
+5 10 15 20
+6 12 18 24
+
+        */
         Scanner s = new Scanner(System.in);
         int opcio;
         do {

@@ -215,7 +215,7 @@ consecutiva (per exemple, "correu" o "assegurar"). Imprimeix un missatge indican
 trobat lletres dobles o no.
 
         */
-        
+        boolean encontrado = false;
         try{
         System.out.print("Dime una palabra: ");
         String palabraUsuario = s.nextLine();
@@ -223,16 +223,19 @@ trobat lletres dobles o no.
         if ((palabraUsuario.length())<3) {
             throw new IllegalArgumentException("Error: La palabra tiene menos de 3 carácteres.");
             
-        }else{
+        }
             for (int i = 0; i < palabraUsuario.length(); i++) {
                 char letra = palabraUsuario.charAt(i);
                 if (letra==(letra-1)) {
-                    System.out.println("Se han encontrado letras dobles.");
-                }else{
-                    System.out.println("No se han encontrado letras dobles.");
+                    encontrado = true;
                 }
             }
-        }
+            if (encontrado) {
+                System.out.println("Se han encontrado letras dobles.");
+            }else{
+                System.out.println("No se han encontrado letras dobles. ");
+            }
+        
         }catch(IllegalArgumentException iae) {
                 System.err.println(iae.getMessage());
 
