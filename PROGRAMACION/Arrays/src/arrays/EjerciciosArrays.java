@@ -1,0 +1,154 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package arrays;
+
+import java.io.PrintStream;
+import java.util.Scanner;
+
+/**
+ *
+ * @author r.abad
+ */
+public class EjerciciosArrays {
+
+    static {
+        System.setOut(new PrintStream(System.out, true, java.nio.charset.StandardCharsets.UTF_8));
+        System.setErr(new PrintStream(System.err, true, java.nio.charset.StandardCharsets.UTF_8));
+    }
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+
+        /*
+        Uni1: Crea un array de 5 posicions amb les següents temperatures: 10.5, 12.3,
+18.4, 22.3, 17.5. Mostra les posicions 1 i 4. Després, demana a l'usuari una
+posició i mostra el valor que hi ha en aquella posició determinada
+         */
+        /*double[] arr = {10.5, 12.3, 18.4, 22.3, 17.5};
+        System.out.println("Posición 1: " + arr[1]);
+        System.out.println("Posición 2: " + arr[4]);
+        System.out.print("Dime una posición (del 0 al 4): ");
+        int posicio = s.nextInt();
+        s.nextLine();
+        
+       for (int i = 0; i < arr.length; i++) {
+            if (posicio==i) {
+                System.out.println(arr[i]);
+            }
+        }
+        */
+
+ /*
+        Uni2: Donat aquest array, segueix els següents passos: Primer, mostra l’array,
+Després demana un número a l’usuari per teclat. Compta quants números com
+el que t’ha dit l’usuari hi ha a l’array
+         */
+ /* int[] valors = {45, 23, 67, 12, 89, 72, 39, 19, 89, 23, 13, 89};
+        for (int i = 0; i < valors.length; i++) {
+            System.out.println(valors[i]);
+        }
+        
+        System.out.print("Dime un número: ");
+        int numUsuario = s.nextInt();
+        s.nextLine();
+        int contador = 0;
+        for (int i = 0; i < valors.length; i++) {
+            if (numUsuario==valors[i]) {
+                contador++;
+            }
+            
+        }
+        System.out.println("Hay "+contador+" números como el tuyo dentro del array.");
+         */
+ /*
+       Uni3: Declara el següent array que seran les notes de 12 alumnes. El programa
+mostrarà la mitjana aritmètica de les qualificacions. 
+         */
+ /*double[] arrayNotes = {3, 5.5, 2, 10, 4.9, 8, 8.5, 7, 6.6, 0.25, 9, 7};
+        double suma = 0;
+        for (int i = 0; i < arrayNotes.length; i++) {
+            suma += arrayNotes[i];
+        }
+        double mitjana = suma / arrayNotes.length;
+        System.out.println("La media aritmetica es: "+mitjana);
+         */
+ /*
+        Uni4: Modifiqueu el programa anterior perquè mostri la nota màxima i mínima
+         */
+ /*double[] arrayNotes = {3, 5.5, 2, 10, 4.9, 8, 8.5, 7, 6.6, 0.25, 9, 7};
+        double suma = 0;
+        double max = arrayNotes[0];
+        double min = arrayNotes[0];
+        for (int i = 0; i < arrayNotes.length; i++) {
+            suma += arrayNotes[i];
+
+            if (arrayNotes[i] > max) {
+                max = arrayNotes[i];
+            }
+            if (arrayNotes[i] < min) {
+                min = arrayNotes[i];
+            }
+        }
+        double mitjana = suma / arrayNotes.length;
+
+        System.out.println("La media aritmetica es: " + mitjana);
+        System.out.println("Nota máxima: " + max);
+        System.out.println("Nota mínima: " + min);
+         */
+ /*
+        Uni5: Fer un programa amb el següent algorisme:
+1. Crea un array de 20 posicions.
+2. Posa en la primera posició un 1.
+3. Omple la resta de posicions amb el doble de l’anterior posició. Necessitaràs
+un for.
+4. Mostra l’array
+         */
+ /*int[] numeros = new int[20];
+        numeros[0] = 1;
+
+        for (int i = 1; i < numeros.length; i++) {
+            numeros[i] = numeros[i - 1] * 2;
+        }
+
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.print(numeros[i] + " ");
+        }
+        System.out.println();
+         */
+ /*
+        Uni6: Modifiqueu el programa de les notes (Uni3) per a què permeti saber si
+algú ha tret una nota concreta. Haurà de preguntar notes a l’usuari fins que
+aquest introdueixi un -1.
+Nota a cercar: 5
+> Hi és
+Nota a cercar: 8,1
+> No hi és
+         */
+        double[] arrayNotes = {3, 5.5, 2, 10, 4.9, 8, 8.5, 7, 6.6, 0.25, 9, 7};
+        double suma = 0;
+        double cerca = 0;
+        
+        
+        do {
+            System.out.print("Nota a cercar: ");
+            cerca = s.nextDouble();
+            s.nextLine();
+                for (int i = 0; i < arrayNotes.length; i++) {
+            suma += arrayNotes[i];
+            
+            if (cerca==arrayNotes[i]) {
+                System.out.println("Hi és");
+            }else{
+                System.out.println("No hi és");
+            }
+        }
+        } while (cerca!=-1);
+    
+        double mitjana = suma / arrayNotes.length;
+        System.out.println("La media aritmetica es: " + mitjana);
+
+    }
+
+}
