@@ -10,7 +10,7 @@ import java.io.PrintStream;
  *
  * @author r.abad
  */
-public class Arrays {
+public class TeoriaArrays {
 
     static {
         System.setOut(new PrintStream(System.out, true, java.nio.charset.StandardCharsets.UTF_8));

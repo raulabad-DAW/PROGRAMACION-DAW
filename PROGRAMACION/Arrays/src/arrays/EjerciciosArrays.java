@@ -5,6 +5,7 @@
 package arrays;
 
 import java.io.PrintStream;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -26,7 +27,7 @@ public class EjerciciosArrays {
 18.4, 22.3, 17.5. Mostra les posicions 1 i 4. Després, demana a l'usuari una
 posició i mostra el valor que hi ha en aquella posició determinada
          */
-        /*double[] arr = {10.5, 12.3, 18.4, 22.3, 17.5};
+ /*double[] arr = {10.5, 12.3, 18.4, 22.3, 17.5};
         System.out.println("Posición 1: " + arr[1]);
         System.out.println("Posición 2: " + arr[4]);
         System.out.print("Dime una posición (del 0 al 4): ");
@@ -38,7 +39,7 @@ posició i mostra el valor que hi ha en aquella posició determinada
                 System.out.println(arr[i]);
             }
         }
-        */
+         */
 
  /*
         Uni2: Donat aquest array, segueix els següents passos: Primer, mostra l’array,
@@ -113,7 +114,13 @@ un for.
         }
 
         for (int i = 0; i < numeros.length; i++) {
-            System.out.print(numeros[i] + " ");
+            if (i==numeros.length-1) {
+                System.out.println(numeros[i]);
+            }else{
+                System.out.print(numeros[i] +", ");
+            }
+            
+            
         }
         System.out.println();
          */
@@ -126,28 +133,70 @@ Nota a cercar: 5
 Nota a cercar: 8,1
 > No hi és
          */
-        double[] arrayNotes = {3, 5.5, 2, 10, 4.9, 8, 8.5, 7, 6.6, 0.25, 9, 7};
+ /* double[] arrayNotes = {3, 5.5, 2, 10, 4.9, 8, 8.5, 7, 6.6, 0.25, 9, 7};
+
+// La suma se calcula una sola vez, antes de preguntar
         double suma = 0;
-        double cerca = 0;
-        
-        
+        for (int i = 0; i < arrayNotes.length; i++) {
+            suma += arrayNotes[i];
+        }
+
+        double cerca;
         do {
-            System.out.print("Nota a cercar: ");
+            System.out.print("Nota a cercar (-1 per acabar): ");
             cerca = s.nextDouble();
             s.nextLine();
+
+            if (cerca != -1) {
+                boolean trobada = false;
+
                 for (int i = 0; i < arrayNotes.length; i++) {
-            suma += arrayNotes[i];
-            
-            if (cerca==arrayNotes[i]) {
-                System.out.println("Hi és");
-            }else{
-                System.out.println("No hi és");
+                    if (cerca == arrayNotes[i]) {
+                        trobada = true;
+                    }
+                }
+
+                if (trobada) {
+                    System.out.println("Hi és");
+                } else {
+                    System.out.println("No hi és");
+                }
             }
-        }
-        } while (cerca!=-1);
-    
+        } while (cerca != -1);
+
         double mitjana = suma / arrayNotes.length;
         System.out.println("La media aritmetica es: " + mitjana);
+         */
+        //ORDENAR ARRAYS
+        /*
+       Uni7: En la següent llista tenim les marques del 100m llisos dels últims jocs
+olímpics, ordenats pel carril on sortia el corredor.
+       
+10.01, 9.95, 9.93, 9.80, 9.89, 9.84, 9.98
+       
+Crea un array amb les dades anteriors sense canviar l’ordre que hi ha a dalt,
+després ordena’l amb la funció sort i mostra les marques de més baixa a més alta.
+Torna’l a mostrar, però ara de més alta a més baixa.
+         */
+        double[] marcas = {10.01, 9.95, 9.93, 9.80, 9.89, 9.84, 9.98};
+        Arrays.sort(marcas);
+        for (int i = 0; i < marcas.length; i++) {
+            System.out.print(marcas[i] + " ");
+
+        }
+        System.out.println();
+
+        for (int i = marcas.length - 1; i >= 0; i--) {
+            System.out.print(marcas[i] + " ");
+        }
+        System.out.println();
+        
+        /*
+        Uni8: Crea un array següent amb les puntuacions de 6 jugadors: 120, 450, 80,
+920, 310, 600. Ordena'ls amb Arrays.sort() i mostra el rànquing de major a
+menor puntuació .
+        */
+        
 
     }
 
