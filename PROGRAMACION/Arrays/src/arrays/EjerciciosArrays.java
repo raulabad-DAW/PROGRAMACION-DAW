@@ -178,7 +178,7 @@ Crea un array amb les dades anteriors sense canviar l’ordre que hi ha a dalt,
 després ordena’l amb la funció sort i mostra les marques de més baixa a més alta.
 Torna’l a mostrar, però ara de més alta a més baixa.
          */
-        double[] marcas = {10.01, 9.95, 9.93, 9.80, 9.89, 9.84, 9.98};
+        /*double[] marcas = {10.01, 9.95, 9.93, 9.80, 9.89, 9.84, 9.98};
         Arrays.sort(marcas);
         for (int i = 0; i < marcas.length; i++) {
             System.out.print(marcas[i] + " ");
@@ -190,12 +190,103 @@ Torna’l a mostrar, però ara de més alta a més baixa.
             System.out.print(marcas[i] + " ");
         }
         System.out.println();
+        */
         
         /*
         Uni8: Crea un array següent amb les puntuacions de 6 jugadors: 120, 450, 80,
 920, 310, 600. Ordena'ls amb Arrays.sort() i mostra el rànquing de major a
 menor puntuació .
         */
+        
+        //int[][] bidi = {{9,4,9,5}, //Por ejemplo este array es 3x4. Pero sus valores en filas realmente donde hay número es de 2 (0, 1, 2) y columnas hay 4 pero son (0, 1, 2, 3).
+             //             {7,2,4,2},
+               //           {3,8,0,6}};
+        
+        /*
+        Multi1: mostra l'element situat en última posició. Posa les posicions a mà
+        */
+       // System.out.println(bidi[2][3]);
+       
+       /*
+        Multi2: mostra tots els elements de la segona fila.
+       */
+       
+           /* for (int j = 0; j < bidi[1].length; j++) {//aqui si ponemos solo bidi.length nos dice las filas que hay en todo el array. Es decir, 3. No nos dice la longitud de una fila especifica, por eso tenemos que ponersela. 
+                System.out.print(bidi[1][j]+ " ");//igual aqui abajo, tenemos que especificar la fila primero y luego la j la recorre gracias mismo for ya que j son columnas. 
+            }
+*/
+           
+           /*
+            Multi3: suma tots els elements del array.
+           */
+          /* int suma = 0;
+           for (int i = 0; i < bidi.length; i++) {
+               for (int j = 0; j < bidi[i].length; j++) {
+                   suma+=bidi[i][j];
+                   System.out.print(bidi[i][j]+" ");
+               }
+               System.out.println("");
+        }
+           System.out.println("La suma de todos es: "+suma);
+*/
+          /*
+          Multi4: mostra la mitjana dels valors.
+          */
+          /* int suma = 0;
+           int contador = 0;
+           for (int i = 0; i < bidi.length; i++) {
+               for (int j = 0; j < bidi[i].length; j++) {
+                   suma+=bidi[i][j];
+                   contador++;
+                   System.out.print(bidi[i][j]+" ");
+               }
+               System.out.println("");
+        }
+           double media = (double)suma/contador;
+           System.out.println("La media de todos es: "+media);
+*/
+          
+          char[][] lletres = {{'a','c','e'},
+                                     {'a','z','a'},
+                                     {'l','c','z'},
+                                     {'p','s','a'}};
+          
+          /*
+          Multi5: Fes que, donada una posició concreta introduïda per l’usuari (hauràs de
+demanar dos valors: la fila i la columna), es pugui canviar la lletra d’aquella
+posició. Mostra l’array abans i després del canvi.
+          */
+          System.out.println("Te pediré dos valores; uno para filas y otro para columnas.");
+          System.out.print("Dime el valor para la fila (entre 0 y 3)");
+          int filaUsuario = s.nextInt();
+          s.nextLine();
+          System.out.print("Dime el valor para la columna (entre 0 y 2)");
+          int columnaUsuario = s.nextInt();
+          s.nextLine();
+          
+          System.out.println("Asi se ve antes del cambio:");
+          for (int i = 0; i < lletres.length; i++) {
+              for (int j = 0; j < lletres[i].length; j++) {
+                  System.out.print(lletres[i][j]+ " ");
+              }
+              System.out.println("");
+        }
+          System.out.print("Ahora dime por qué letra quieres cambiar la posición que has escogido: ");
+          char letraUsuario = s.next().charAt(0);
+          s.nextLine();
+          
+           System.out.println("Así se ve después del cambio:");
+          
+            for (int i = 0; i < lletres.length; i++) {
+              for (int j = 0; j < lletres[i].length; j++) {
+                  letraUsuario = lletres[filaUsuario][columnaUsuario];
+                  System.out.print(lletres[i][j]+ " ");
+              }
+              System.out.println("");
+        }
+         
+            
+        
         
 
     }
